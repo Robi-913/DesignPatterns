@@ -19,12 +19,10 @@ public class Demo {
     private static long test(YouTubeDownloader downloader) {
         long startTime = System.currentTimeMillis();
 
-        // User behavior in our app:
         downloader.renderPopularVideos();
         downloader.renderVideoPage("catzzzzzzzzz");
         downloader.renderPopularVideos();
         downloader.renderVideoPage("dancesvideoo");
-        // Users might visit the same page quite often.
         downloader.renderVideoPage("catzzzzzzzzz");
         downloader.renderVideoPage("someothervid");
 
