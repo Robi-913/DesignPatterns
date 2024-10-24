@@ -1,4 +1,7 @@
 package CreationalPatterns.AbstractFactory.buttons;
 
-public class Button {
+public interface Button {
+
+    void print();
+
 }
